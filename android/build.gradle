@@ -56,5 +56,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation safeExtGet('cblVersion', 'com.couchbase.lite:couchbase-lite-android-ee:3.0.0');
+    implementation safeExtGet('cblVersion', 'com.couchbase.lite:couchbase-lite-android-ee:3.2.1');
 }
